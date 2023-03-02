@@ -1,0 +1,17 @@
+:root {
+  --primary-color: green;
+  --secondary-color: orange;
+  --primary-box-shadow: 0px 1px 1px #333;
+  --secondary-box-shadow: 0px 0px 1px #111;
+  --p1: 10px;
+  --p2: 30px;
+}
+
+h1 {
+  background-color: var(--primary-color);
+  padding: var(--p2);
+}
+
+p {
+  color: var(--primary-color);
+}

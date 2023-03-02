@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main-div {
+        /* border: 3px solid black; */
+        background-image: url("img/bird.png");
+        height: 300px;
+        width: 400px;
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid red;
+        /* box-shadow:y x blur color; */
+        box-shadow: 0px 1px 1px #000;
+        margin-top: 20px;
+        opacity: 100%;
+      }
+      #main-div p {
+        color: white;
+        font-size: 20px;
+        font-family: "Fira Code";
+        font-weight: 600;
+        text-align: center;
+        background-color: rgba(245, 66, 66, 0.58);
+        text-shadow: 0px 2px 1px #000;
+      }
+      /* position */
+
+      .one {
+        width: 500px;
+        height: 400px;
+        background-color: red;
+        position: relative;
+      }
+      .two {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-div">
+      <p>Blue Bird</p>
+    </div>
+    <br />
+    <div class="one">
+      <div class="two"></div>
+    </div>
+    <br />
+  </body>
+</html>
