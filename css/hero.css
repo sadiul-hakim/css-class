@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  padding: 10px;
+  background: rgba(44, 121, 243, 0.888);
+  color: white;
+  text-align: center;
+}
+.hero {
+  margin-top: 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: center;
+  padding: 10px;
+}
+
+.details h2 {
+  color: rgba(44, 121, 243, 0.888);
+}
+
+.img {
+  flex: 1;
+}

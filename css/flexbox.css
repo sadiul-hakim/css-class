@@ -1,0 +1,58 @@
+/* .main {
+  border: 2px solid black;
+  height: 100px;
+}
+.main > div {
+  padding: 5px;
+  background: red;
+  color: white;
+  border: 1px solid white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.main {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.main > div {
+  background-color: red;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+}
+
+.one {
+  flex: 2;
+}
+
+.two {
+  flex: 1;
+}
+
+.three {
+  flex: 1;
+}
+
+.four {
+  flex: 1;
+}
+
+.five {
+  flex: 1;
+}
+
+.six {
+  flex: 3;
+}
